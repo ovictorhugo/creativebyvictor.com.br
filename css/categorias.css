@@ -174,13 +174,23 @@ bar {
     min-height: 80px;
     width: 100%;
     display: flex;
-    background-image: url("D:/OneDrive/43%-%Portifólio/ovictorhugo.github.io/img/cabecalho/fundo_1.svg");
+    background-color: #FFF;
     background-size: cover;
     background-repeat: no-repeat, repeat;
     background-position: top;
     position: absolute;
     top: 0;
     left: 0;
+}
+
+.bar_img {
+    width: 100%;
+    height: auto;
+}
+
+.bar_img img {
+    width: 100%;
+    height: auto;
 }
 
 bar div {
