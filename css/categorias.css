@@ -191,6 +191,10 @@ bar {
 .bar_img img {
     width: auto;
     height: 522px;
+    display: flex;
+    position: absolute;
+    top: 0;
+    left: 0;
 }
 
 .bar_img div {
