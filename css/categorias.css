@@ -186,6 +186,10 @@ bar {
 .bar_img {
     width: 100%;
     height: auto;
+
+    background: linear-gradient(0deg, #000 10%, transparent);
+    width: 100%;
+    height: 100%;
 }
 
 .bar_img img {
