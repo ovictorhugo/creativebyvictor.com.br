@@ -184,23 +184,19 @@ bar {
 }
 
 .bar_img {
-    width: 100%;
-    height: auto;
-
-    background: linear-gradient(0deg, #000 10%, transparent);
-    width: 100%;
-    height: 100%;
+    width: auto;
+    height: 522px;
 }
 
 .bar_img img {
-    width: 100%;
-    height: auto;
+    width: auto;
+    height: 522px;
 }
 
-bar div {
+.bar_img div {
     background: linear-gradient(0deg, #000 10%, transparent);
     width: 100%;
-    height: 100%;
+    height: 522px;
 }
 
 main {
