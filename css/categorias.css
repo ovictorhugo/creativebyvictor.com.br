@@ -174,7 +174,6 @@ bar {
     min-height: 80px;
     width: 100%;
     display: flex;
-    background-image: url("img/cabecalho/fundo_1.svg");
     background-size: cover;
     background-repeat: no-repeat, repeat;
     background-position: top;
@@ -187,6 +186,13 @@ bar div {
     background: linear-gradient(0deg, #000 10%, transparent);
     width: 100%;
     height: 100%;
+}
+
+bar img {
+    width: 100%;
+    height: 522px;
+    z-index: -1;
+    display: flex;
 }
 
 main {
