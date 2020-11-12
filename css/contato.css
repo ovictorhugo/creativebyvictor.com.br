@@ -316,6 +316,10 @@ form {
     padding: 0;
     margin-bottom: 20px;
 }
+
+#p_one {
+    margin: 0;
+}
   
   .darker {
     border-color: #ccc;
