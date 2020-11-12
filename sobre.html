@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="theme-color" content="#ff7a00">
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 
     <title>Sobre mim | Victor Hugo</title>
 
@@ -12,6 +13,17 @@
 </head>
 
 <body>
+
+    <div id="preloader">
+        <div class="inner">
+           <!-- HTML DA ANIMAÇÃO MUITO LOUCA DO SEU PRELOADER! -->
+           <div class="bolas">
+              <div></div>
+              <div></div>
+              <div></div>                    
+           </div>
+        </div>
+    </div>
 
     <bar>
         <div class="img_cab"></div>
@@ -334,5 +346,16 @@
 
         </div>
     </section>
+
+    <script type="text/javascript">
+        //<![CDATA[
+            $(window).on('load', function () { // makes sure the whole site is loaded 
+            $('#preloader .inner').fadeOut(); // will first fade out the loading animation 
+            $('#preloader').delay(200).fadeOut('slow'); // will fade out the white DIV that covers the website. 
+            $('body').delay(200).css({'overflow': 'visible'});
+            })
+    //]]>
+    
+    </script>
 </body>
 </html>

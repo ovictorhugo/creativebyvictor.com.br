@@ -39,7 +39,8 @@ body {
     left:0;
     right:0;
     bottom:0;
-    background-color:#000; /* cor do background que vai ocupar o body */
+    background: rgba(0, 0, 0, 0.7);
+    transition: opacity 500ms; /* cor do background que vai ocupar o body */
     z-index:999; /* z-index para jogar para frente e sobrepor tudo */
 }
 #preloader .inner {
