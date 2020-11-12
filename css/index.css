@@ -371,12 +371,11 @@ main {
     width: 100%;
     display: flex;
     align-items: center;
-    justify-content: center;
 }
 
 #container_grande {
-    width: 100%;
-    height: auto;
+    width: 30%;
+    height: 100%;
     background-color: turquoise;
     padding: 40px;
     border-radius: 5px;
@@ -401,6 +400,22 @@ main {
     font-weight: 300;
     padding: 0;
     width: 100%;
+}
+
+.containers_peq {
+    width: 60%;
+    height: 100%;
+    margin-left: 10%;
+    display: flex;
+    padding: 0;
+}
+
+.bloco_container {
+    width: 45%;
+    height: auto;
+    min-height: 150px;
+    background-color: violet;
+    margin-right: 10%;
 }
 
 /* responsive */
