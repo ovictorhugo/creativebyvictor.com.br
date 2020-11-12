@@ -173,7 +173,7 @@ bar {
     min-height: 80px;
     width: 100%;
     display: flex;
-    background-image: url("https://www.estudokids.com.br/wp-content/uploads/2020/02/o-que-e-paisagem-1200x675.jpg");
+    background-image: url("https://ovictorhugo.github.io/img/cabecalho/fundo_4.svg");
     background-size: cover;
     background-repeat: no-repeat, repeat;
     background-position: top;
@@ -365,6 +365,44 @@ main {
   .popup .close:hover {
     color: #ff7a00;
   }
+
+/* Grid */
+.containers {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#container_grande {
+    width: 100%;
+    height: auto;
+    background-color: turquoise;
+    padding: 40px;
+    border-radius: 5px;
+    display: block;
+    justify-content: center;
+    min-height: 170px;
+}
+
+#container_grande h1{
+    color: #FFF;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16pt;
+    font-weight: 700;
+    margin-bottom: 30px;
+    width: 100%;
+}
+
+#container_grande p {
+    color: #FFF;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14pt;
+    font-weight: 300;
+    padding: 0;
+    width: 100%;
+}
+
 /* responsive */
 
 @media screen and (max-width: 960px) {
