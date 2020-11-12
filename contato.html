@@ -24,30 +24,79 @@
             <h1>Fale comigo</h1>
         </section>
 
-        <section class="linhas">
+        <section id="main_center">
+            <section class="linhas">
 
-            <div class="linha">
-                <h1 class="titulo_linha">Você pode começar digitando seu nome, seu e-mail e a sua mensagem, logo logo darei um retorno!</h1>
-                <p class="paragrafo">Na barra lateral, também há outros meios de contato.</p>
+                <div class="linha">
+                    <h1 class="titulo_linha">Você pode começar digitando seu nome, seu e-mail e a sua mensagem, logo logo darei um retorno!</h1>
+                    <p class="paragrafo" id="prazo">Prazo de respostaem até 1 dia útil</p>
+                   
+                        <form action="https://formspree.io/f/xpzolwwn" method="POST">
 
-                <form action="https://formspree.io/f/xpzolwwn" method="POST">
+                            <div class="container">
+                                <img src="img/contato/vh.png" alt="Avatar">
+                                <p>Oi, tudo bom? <br> Qual o seu nome?</p>
+                                <span class="time-right">11:00</span>
+                            </div>
 
-                <label>
-                    Your email:
-                    <input type="text" name="_replyto">
-                </label>
+                            <div class="direita">
+                                <div class="container darker">
+                                    <img src="img/contato/user.png" alt="Avatar" class="right">
+                                    <label>
+                                        <input id="nome white_p" class="paragrafo input" placeholder="Digite seu nome aqui" type="text" name="name" required>
+                                    </label>
+                                    <span class="time-left">11:01</span>
+                                </div>
+                            </div>
 
-                <label>
-                    Your message:
-                    <textarea name="message"></textarea>
-                </label>
+                            <div class="container">
+                                <img src="img/contato/vh.png" alt="Avatar">
+                                <p>Ok. Agora, você poderia me passar o seu e-mail para entrar em contato?</p>
+                                <span class="time-right">11:00</span>
+                            </div>
 
-                <!-- your other form fields go here -->
+                            <div class="direita">
+                                <div class="container darker">
+                                    <img src="img/contato/user.png" alt="Avatar" class="right">
+                                    <label>
+                                        <input id="email_input" class="paragrafo input" placeholder="Digite seu e-mail aqui" type="text" name="replyto" required>
+                                    </label>
+                                    <span class="time-left">11:01</span>
+                                </div>
+                            </div>
 
-                <button type="submit">Send</button>
-                </form>
-            </div>
+                            <div class="container">
+                                <img src="img/contato/vh.png" alt="Avatar">
+                                <p>Tudo certo! O que você gostaria de falar comigo?</p>
+                                <span class="time-right">11:00</span>
+                            </div>
 
+                            <div class="direita">
+                                <div class="container darker">
+                                    <img src="img/contato/user.png" alt="Avatar" class="right">
+                                    <label>
+                                        <input id="mensagem" class="paragrafo input" placeholder="E por fim, sua mensagem" name="message" required>
+                                    </label>
+                                    <span class="time-left">11:01</span>
+                                </div>
+                            </div>
+
+                            <div class="container">
+                                <img src="img/contato/vh.png" alt="Avatar">
+                                <p>Obrigado, em breve retornarei com uma resposta</p>
+                                <span class="time-right">11:00</span>
+                            </div>
+
+
+                            <!-- your other form fields go here -->
+                            <div class="ctr_btn">
+                                <button id="btn_enviar" type="submit">Enviar</button>
+                            </div>
+                        </form>
+               
+                </div>
+
+            </section>
         </section>
     </main>
 
