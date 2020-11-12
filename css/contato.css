@@ -141,7 +141,7 @@ nav div {
 
 .btn_menu:hover {
     transition: 1s;
-    background-image: url("D:/OneDrive/43 - Portifólio/ovictorhugo.github.io/img/opacity.svg");
+    background-image: url("https://ovictorhugo.github.io/img/opacity.svg");
 }
 
 #home {
@@ -157,7 +157,7 @@ nav div {
 }
 
 #contato {
-    background-image: url("D:/OneDrive/43 - Portifólio/ovictorhugo.github.io/img/opacity.svg");
+    background-image: url("https://ovictorhugo.github.io/img/opacity.svg");
 }
 
 #footer_menu {
@@ -174,7 +174,7 @@ bar {
     min-height: 80px;
     width: 100%;
     display: flex;
-    background-image: url("https://1drv.ms/u/s!Anl8ZUpqimesg6hGA2M1Nt1iZlCCGA?e=KZ77t3");
+    background-image: url("https://ovictorhugo.github.io/img/cabecalho/teste_3.svg");
     background-size: cover;
     background-repeat: no-repeat, repeat;
     background-position: top;

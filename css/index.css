@@ -141,11 +141,11 @@ nav div {
 
 .btn_menu:hover {
     transition: 1s;
-    background-image: url("D:/OneDrive/43 - Portifólio/ovictorhugo.github.io/img/opacity.svg");
+    background-image: url("https://ovictorhugo.github.io/img/opacity.svg");
 }
 
 #home {
-    background-image: url("D:/OneDrive/43 - Portifólio/ovictorhugo.github.io/img/opacity.svg");
+    background-image: url("https://ovictorhugo.github.io/img/opacity.svg");
 }
 
 #sobre {
