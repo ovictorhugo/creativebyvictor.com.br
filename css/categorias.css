@@ -329,7 +329,6 @@ main {
       width: 80%;
       height: auto;
       z-index: 1;
-      border-radius: 7px;
   }
   
   .popup .close {
