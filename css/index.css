@@ -435,50 +435,27 @@ main {
   }
 
 /* Grid */
-.community {
+.containers {
+    width: 100%;
+    height: auto;
     display: flex;
-    flex-direction: column;
+    justify-content: center;
+    justify-content: center;
 }
 
-.tiles {
-    align-self: center;
-    display: block;
-    box-sizing: border-box;
-}
-
-.long-tile {
-    max-height: calc(900px + 3vw);
-    height: calc(25vw * 2 + 3vw);
-    display: flex;
-}
-
-.tile {
-    background-color: turquoise;
-    display: flex;
-    background-repeat: no-repeat;
-    background-size: cover;
-    color: white;
-    flex-direction: column;
-    justify-content: flex-end;
-    overflow: hidden;
-    margin-bottom: 2vw;
-    padding: 40px;
-    max-width: 450px;
-    max-height: 450px;
-    height: 20vw;
+.container_box {
     width: 20vw;
-    text-decoration: none;
-}
-.tile-content {
+    height: auto;
+    min-height: 300px;
+    background-color: yellowgreen;
+    margin: 1vw;
+    padding: 40px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    height: 100%;
-    z-index: 1;
-    padding: 40px;
 }
 
-.tile-header {
+.container_box h1 {
     text-transform: uppercase;
     margin-top: 0;
     margin: .5em 0 1em;
@@ -490,16 +467,25 @@ main {
     padding: 0;
 }
 
-.tile-content h2 {
+.small_container {
+    display: flex;
+    align-content: space-between;
+}
+
+.corpo_container_box {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.corpo_container_box h2 {
     color: #FFF;
     font-family: 'Roboto', sans-serif;
     font-size: 21pt;
     font-weight: 900;
-    margin-bottom: 90px;
-    
+    margin-bottom: 10px;
 }
 
-.lead {
+.corpo_container_box p {
     overflow: hidden;
     display: -webkit-box;
     -webkit-line-clamp: 8;
@@ -513,142 +499,25 @@ main {
     padding: 0;
 }
 
-.hover-overlay:hover {
-    background-image: url("https://ovictorhugo.github.io/img/cabecalho/fundo_3.svg");
-    position: absolute;
-    z-index: 0;
-    transition: opacity 0.3s ease, background-size 0.3s ease;
-    opacity: 0;
-    background-position: 10%;
-    background-repeat: no-repeat;
-    background-size: 140%;
-    height: 100%;
-    width: 100%;
-    display: block;
+#footer_container {
+    width: calc(100% - 22vw);
 }
 
-.start .has-hover-overlay {
-    padding: 0;
-    display: flex;
-    flex-direction: column;
-    position: relative;
-}
-
-.start .community .long-tile .content-text {
-    display: block;
-}
-
-.content-text {
-    justify-content: space-between;
-    height: 100%;
-}
-
-.start {
-    transition: background-size 0.3s ease;
-    background-position: center;
-    background-size: 130%;
-}
-
-.community {
-    transition: background-size 0.3s ease;
-    background-position: center;
-    background-size: 130%;
-}
-
-.tiles {
-    transition: background-size 0.3s ease;
-    background-position: center;
-    background-size: 130%;
-}
-
-.long-tile {
-    transition: background-size 0.3s ease;
-    background-position: center;
-    background-size: 130%;
-}
-
-.wide-tile {
-    flex-flow: row wrap;
-    width: calc(25vw * 2 + 3vw);
-    max-width: calc(450px * 2 + 3vw);
-}
-
-@media (min-width: 768px) {
-    .wide-tile .content-text h2 {
-        margin-right: 8vw;
-    }
-}
-
-@media (max-width: 1200px) and (min-width: 768px) {
-    .tiles {
-        width: 38vw;
+@media screen and (max-width: 1200px) {
+    .containers {
+        flex-direction: column;
     }
 
-    .small-tile {
-        width: 38vw;
-    }
-}
-
-@media (min-width: 768px) {
-    .small-tile:not(:last-child) {
-        margin-right: 2vw;
-    }
-}
-
-@media (min-width: 768px) {
-    .small-tile:not(:last-child) {
-        margin-right: 2vw;
-    }
-}
-
-@media (min-width: 768px) {
-    .content-text {
-        display: flex;
+    #long_container {
+        width: auto;
     }
 
-    .small-tile-container {
-        display: flex;
-    }
-}
-
-@media (min-width: 1200px) {
-    .tiles {
-        display: flex;
-    }
-}
-
-@media (min-width: 768px) {
-    .tile-content h2 {
-        font-size: 25pt;
-        
-    }
-}
-
-@media (min-width: 1200px) {
-    .long-tile {
-        margin-right: 2vw;
-    }
-}
-
-@media (min-width: 1200px) {
-    .tiles {
-        display: flex;
-}
-
-@media (max-width: 1199px){
-    .tiles {
-        height: auto;
+    #main_container {
+        width: 50%;
     }
 
-    .tile {
-        height: auto;
-    }
-}
-
-@media (max-width: 1200px) and (min-width: 768px) {
-    .tiles .long-tile, .tiles .wide-tile {
-        width: 79vw;
-        max-width: none;
+    #footer_container {
+        width: auto;
     }
 }
 /* responsive */
