@@ -511,7 +511,8 @@ main {
 }
 
 #long_container:hover {
-    background-size: 130%;
+    transition: 1s;
+    background-size: 500%;
     background-position: center;
 }
 
@@ -551,8 +552,10 @@ main {
         flex-direction: column;
     }
 
-    #long_container {
-        width: auto;
+    #long_container:hover {
+        transition: 1s;
+        background-size: 130%;
+        background-position: center;
     }
 
     #main_container_1 {
