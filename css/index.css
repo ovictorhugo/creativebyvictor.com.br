@@ -476,9 +476,10 @@ main {
     background-color: #19e68c;
 }
 
-#main_container_1 {
+#main_container_1:hover {
     background-color: #19e68c;
     background-image: url("https://ovictorhugo.github.io/img/index_index_1.png");
+    background-size: 130%;
 }
 
 
