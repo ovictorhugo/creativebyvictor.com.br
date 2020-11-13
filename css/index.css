@@ -318,6 +318,8 @@ main {
     margin: 0 10px 10px 0;
 }
 
+
+
 .imagem_item {
     width: 160px;
     height: 160px;
@@ -330,6 +332,7 @@ main {
 }
 
 .imagem_item:hover img {
+    transform: scale(1.2);
     border-radius: 7px;
     transition: 0.5s;
     border: #FFF 3px solid;
@@ -473,18 +476,30 @@ main {
 }
 
 #main_container_1 {
-    background-color: #19e68c;
+    background-color: #ee0a82;
 }
 
 #main_container_1:hover {
-    background-color: #19e68c;
-    background-image: url("https://ovictorhugo.github.io/img/index_index_1.png");
-    background-size: 130%;
+    z-index: 0;
+    transition: opacity 0.3s ease, background-size 0.3s ease;
+
+    background-image: url("https://ovictorhugo.github.io/img/index/index_1.png");
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 
 #main_container_2 {
-    background-color: red;
+    background-color: #ffcd10;
+}
+
+#main_container_2:hover {
+    z-index: 0;
+    transition: opacity 0.3s ease, background-size 0.3s ease;
+
+    background-image: url("https://ovictorhugo.github.io/img/index/index_2.png");
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .corpo_container_box {

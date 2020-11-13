@@ -330,6 +330,7 @@ main {
 }
 
 .imagem_item:hover img {
+    transform: scale(1.2);
     border-radius: 7px;
     transition: 0.5s;
     border: #FFF 3px solid;
