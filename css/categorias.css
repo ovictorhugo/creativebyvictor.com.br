@@ -492,7 +492,10 @@ footer {
 @media screen and (max-width: 550px) {
     .coluna_3 {
         flex-direction: column;
-        margin-bottom: 0;
+        margin-bottom: 10px;
+    }
+    .coluna_footer {
+        margin-bottom: 10px;
     }
 }
 
