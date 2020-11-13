@@ -511,7 +511,8 @@ main {
 }
 
 #long_container:hover {
-    transition: 1s;
+    z-index: 0;
+    transition: opacity 0.3s ease, background-size 0.3s ease;
     background-size: 500%;
     background-position: center;
 }
