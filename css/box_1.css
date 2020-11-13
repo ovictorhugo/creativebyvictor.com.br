@@ -471,6 +471,14 @@ footer {
     }
 }
 
+@media screen and (max-width: 550px) {
+    .coluna_3 {
+        flex-direction: column;
+        margin-bottom: 0;
+    }
+}
+
+
 /* Menu Mobile */
 
 body {
