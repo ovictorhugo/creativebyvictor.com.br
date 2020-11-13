@@ -572,6 +572,23 @@ main {
     }
 }
 
+@media screen and (max-width: 600px) {
+    #main_container_1 {
+        background-image: url("https://ovictorhugo.github.io/img/index/index_1.png");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        
+    }
+
+    #main_container_2 {
+        background-image: url("https://ovictorhugo.github.io/img/index/index_2.png");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+}
+
 /* Footer */
 
 footer {
