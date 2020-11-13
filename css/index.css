@@ -503,6 +503,7 @@ main {
 }
 
 #long_container {
+    background-color: #fff;
     background-image: url("https://ovictorhugo.github.io/img/index/index_3.jpg");
     background-size: cover;
     background-repeat: no-repeat;
