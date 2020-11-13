@@ -500,7 +500,7 @@ main {
 }
 
 #footer_container {
-    width: calc(100% - 22vw);
+    width: auto;
 }
 
 @media screen and (max-width: 1200px) {
