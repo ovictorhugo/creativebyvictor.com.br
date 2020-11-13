@@ -244,7 +244,7 @@ bar {
     background-image: url("https://ovictorhugo.github.io/img/cabecalho/fundo_2.svg");
     background-size: cover;
     background-repeat: no-repeat, repeat;
-    background-position: top right;
+    background-position: top;
     position: absolute;
     top: 0;
     left: 0;
@@ -543,69 +543,7 @@ footer {
     }
 }
 
-/* Menu Mobile */
 
-body {
-    padding: 0%;
-    margin: 0%;
-    background-color: #000;
-}
-
-#barra_inferior {
-    display: none;
-}
-
-@media screen and (max-width: 600px) {
-    #barra_inferior {
-        display: flex;
-        background: #222326;
-        width: 100%;
-        bottom: 0 !important;
-        top: auto !important;
-        height: 70px;
-        padding: 0;
-        box-shadow: 5px 5px 20px rgba(19, 86, 174, 0.16);
-
-        position: fixed;
-        flex-direction: row;
-        justify-content: space-between;
-        overflow: initial;
-        z-index: 500;
-
-    }
-
-    #barra_inferior div {
-        display: flex;
-        width: 100%;
-        flex-direction: row;
-        max-width: 100%;
-        width: 100%;
-        justify-content: space-between;
-        padding: 0;
-        overflow: initial;
-        margin-top: 0;
-    }
-
-    .btn_menu_inferior {
-        flex: 1 1 auto;
-        margin: 0;
-        width: 35px;
-        align-items: center;
-        height: auto;
-        border-radius: 5px;
-        background-color: transparent;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-
-    .btn_menu_inferior img {
-        width: 30%;
-        height: auto;
-        opacity: 100%;
-    }
-
-}
 
 /* responsive */
 
