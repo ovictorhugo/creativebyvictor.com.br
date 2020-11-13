@@ -345,6 +345,8 @@ main {
 
 iframe {
     margin-top: 30px;
+    background-color: #000;
+    border-radius: 5px;
 }
 
 @media screen and (max-width: 780px) {
