@@ -334,6 +334,7 @@ main {
 
 #meio_paragrafo {
     width: 47%;
+    text-align: justify;
 }
 
 .sessao img {
