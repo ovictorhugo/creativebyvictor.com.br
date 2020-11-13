@@ -472,6 +472,20 @@ main {
     align-content: space-between;
 }
 
+#main_container_1 {
+    background-color: #19e68c;
+}
+
+#main_container_1 {
+    background-color: #19e68c;
+    background-image: url("https://ovictorhugo.github.io/img/index_index_1.png");
+}
+
+
+#main_container_2 {
+    background-color: red;
+}
+
 .corpo_container_box {
     display: flex;
     justify-content: space-between;
@@ -512,7 +526,11 @@ main {
         width: auto;
     }
 
-    #main_container {
+    #main_container_1 {
+        width: 50%;
+    }
+
+    #main_container_2 {
         width: 50%;
     }
 
