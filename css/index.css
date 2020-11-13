@@ -502,6 +502,18 @@ main {
     background-repeat: no-repeat;
 }
 
+#long_container {
+    background-image: url("https://ovictorhugo.github.io/img/index/index_3.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#long_container:hover {
+    background-size: 130%;
+    background-position: center;
+}
+
 .corpo_container_box {
     display: flex;
     justify-content: space-between;
