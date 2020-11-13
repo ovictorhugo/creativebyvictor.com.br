@@ -244,7 +244,7 @@ bar {
     background-image: url("https://ovictorhugo.github.io/img/cabecalho/fundo_2.svg");
     background-size: cover;
     background-repeat: no-repeat, repeat;
-    background-position: top;
+    background-position: top right;
     position: absolute;
     top: 0;
     left: 0;
