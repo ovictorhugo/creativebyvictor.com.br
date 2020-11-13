@@ -593,6 +593,12 @@ body {
         display: flex;
     }
 
+    .item p {
+        width: 100%;
+        min-height: 36px;
+        text-align: center;
+    }
+
     .imagem_item {
         width: 100%;
         height: auto;
