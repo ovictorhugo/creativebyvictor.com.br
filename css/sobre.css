@@ -311,6 +311,7 @@ bar div {
     }
 }
 
+
 main {
     overflow: hidden;
     position: relative;
@@ -671,6 +672,13 @@ footer {
 }
 
 /* responsive */
+
+@media screen and (max-width: 960px) {
+    #barra_lateral {
+        transition: 0.5s;
+        margin-left: 20px;
+    }
+}
 
 @media screen and (max-width: 960px) {
     #barra_lateral {
