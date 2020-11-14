@@ -613,6 +613,14 @@ footer {
     }
 }
 
+.iframe {
+    width: 100%;
+    height: auto;
+}
+iframe {
+    overflow: hidden;
+}
+
 #barra_inferior {
     display: none;
 }
@@ -640,7 +648,6 @@ footer {
             margin: 0;
             margin-bottom: 15px;
         }
-    }
 
     #barra_inferior div {
         display: flex;
