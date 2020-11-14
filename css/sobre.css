@@ -613,14 +613,6 @@ footer {
     }
 }
 
-.iframe {
-    width: 100%;
-    height: auto;
-}
-iframe {
-    overflow: hidden;
-}
-
 #barra_inferior {
     display: none;
 }
