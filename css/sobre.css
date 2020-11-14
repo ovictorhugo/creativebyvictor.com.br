@@ -628,7 +628,7 @@ footer {
         padding: 0;
         box-shadow: 5px 5px 20px rgba(19, 86, 174, 0.16);
 
-        position: fixed;
+        position: sticky;
         flex-direction: row;
         justify-content: space-between;
         overflow: initial;
