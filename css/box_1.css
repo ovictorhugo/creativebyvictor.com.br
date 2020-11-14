@@ -337,6 +337,10 @@ main {
     text-align: justify;
 }
 
+#scratch {
+    text-align: justify;
+}
+
 .sessao img {
     width: 50%;
     height: auto;
@@ -364,6 +368,12 @@ iframe {
     .sessao img {
         width: 100%;
         height: auto;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    iframe {
+        height: 300px;
     }
 }
 
@@ -474,10 +484,13 @@ footer {
 @media screen and (max-width: 550px) {
     .coluna_3 {
         flex-direction: column;
-        margin-bottom: 10px;
+        margin-bottom: 0;
     }
     .coluna_footer {
         margin-bottom: 10px;
+    }
+    footer {
+        margin-bottom: 100px;
     }
 }
 

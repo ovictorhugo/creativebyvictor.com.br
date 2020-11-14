@@ -555,7 +555,7 @@ main {
 
     #long_container:hover {
         transition: 1s;
-        background-size: 160%;
+        background-size: 220%;
         background-position: center;
     }
 
@@ -681,10 +681,13 @@ footer {
 @media screen and (max-width: 550px) {
     .coluna_3 {
         flex-direction: column;
-        margin-bottom: 10px;
+        margin-bottom: 0;
     }
     .coluna_footer {
         margin-bottom: 10px;
+    }
+    footer {
+        margin-bottom: 100px;
     }
 }
 
