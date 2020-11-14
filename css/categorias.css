@@ -149,6 +149,55 @@ nav div {
     margin: 0;
 }
 
+/*contatos 600px */
+
+#contato_600px {
+    display: none;
+}
+
+@media screen and (max-width: 600px) {
+    #contato_600px {
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: center;
+    }
+
+    #contato_600px div {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        box-sizing: border-box;
+        flex-direction: row;
+        flex-flow: wrap;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+
+    .social_media_600px {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 18px;
+        height: 18px;
+        margin: 0 10px 0 10px;
+    }
+    .social_media_600px img {
+        width: 100%;
+        height: auto;
+    }
+
+    #email_600px {
+        color: #FFF;
+        font-family: 'Roboto', sans-serif;
+        font-size: 10pt;
+        font-weight: 300;
+        margin: 0;
+        padding: 26px 0;
+    }
+}
+
 /* barra lateral */
 
 #barra_lateral {
