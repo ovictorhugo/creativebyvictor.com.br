@@ -613,6 +613,10 @@ footer {
     }
 }
 
+#barra_inferior {
+    display: none;
+}
+
 @media screen and (max-width: 600px) {
     #barra_inferior {
         display: flex;
