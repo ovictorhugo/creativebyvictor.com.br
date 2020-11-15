@@ -209,7 +209,7 @@ nav div {
 
 .btn_menu:hover {
     transition: 1s;
-    background-image: url("https://ovictorhugo.github.io/img/opacity.svg");
+    background-image: url("https://creativebyvictor.com.br/img/opacity.svg");
 }
 
 #home {
@@ -217,7 +217,7 @@ nav div {
 }
 
 #sobre {
-    background-image: url("https://ovictorhugo.github.io/img/opacity.svg");
+    background-image: url("https://creativebyvictor.com.br/img/opacity.svg");
 }
 
 #categorias {
@@ -290,7 +290,7 @@ bar {
     min-height: 80px;
     width: 100%;
     display: flex;
-    background-image: url("https://ovictorhugo.github.io/img/cabecalho/fundo_2.png");
+    background-image: url("https://creativebyvictor.com.br/img/cabecalho/fundo_2.png");
     background-size: cover;
     background-repeat: no-repeat, repeat;
     background-position: top;
@@ -473,7 +473,7 @@ main {
 }
 
 #xp_aplicativos {
-    background-image: url("https://ovictorhugo.github.io/img/opacity.svg");
+    background-image: url("https://creativebyvictor.com.br/img/opacity.svg");
     background-size: cover;
     padding: 20px;
     border-radius: 7px;
