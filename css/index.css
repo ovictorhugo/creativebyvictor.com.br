@@ -550,7 +550,7 @@ main {
 }
 
 #long_container {
-    background-color: #fff;
+    background-color: transparent;
     background-image: url("https://creativebyvictor.com.br/img/index/index_3.jpg");
     background-size: cover;
     background-repeat: no-repeat;
