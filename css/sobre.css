@@ -286,6 +286,7 @@ nav div {
 /* bar e main */
 
 bar {
+    background-color: red;
     height: 522px;
     min-height: 80px;
     width: 100%;
