@@ -209,11 +209,11 @@ nav div {
 
 .btn_menu:hover {
     transition: 1s;
-    background-image: url("https://creativebyvictor.com.br/img/opacity.svg");
+    background-image: url("../img/opacity.svg");
 }
 
 #home {
-    background-image: url("https://creativebyvictor.com.br/img/opacity.svg");
+    background-image: url("../img/opacity.svg");
 }
 
 #sobre {
@@ -291,7 +291,7 @@ bar {
     min-height: 80px;
     width: 100%;
     display: flex;
-    background-image: url("https://creativebyvictor.com.br/img/cabecalho/fundo_4.png");
+    background-image: url("../img/cabecalho/fundo_4.png");
     background-size: cover;
     background-repeat: no-repeat, repeat;
     background-position: top;
@@ -530,7 +530,7 @@ main {
     z-index: 0;
     transition: opacity 0.3s ease, background-size 0.3s ease;
 
-    background-image: url("https://creativebyvictor.com.br/img/index/index_1.png");
+    background-image: url("../img/index/index_1.png");
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -544,14 +544,14 @@ main {
     z-index: 0;
     transition: opacity 0.3s ease, background-size 0.3s ease;
 
-    background-image: url("https://creativebyvictor.com.br/img/index/index_2.png");
+    background-image: url("../img/index/index_2.png");
     background-size: cover;
     background-repeat: no-repeat;
 }
 
 #long_container {
     background-color: transparent;
-    background-image: url("https://creativebyvictor.com.br/img/index/index_3.jpg");
+    background-image: url("../img/index/index_3.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -624,7 +624,7 @@ main {
 
 @media screen and (max-width: 600px) {
     #main_container_1 {
-        background-image: url("https://creativebyvictor.com.br/img/index/index_1.png");
+        background-image: url("../img/index/index_1.png");
         background-size: cover;
         background-repeat: no-repeat;
         background-position: center;
@@ -632,7 +632,7 @@ main {
     }
 
     #main_container_2 {
-        background-image: url("https://creativebyvictor.com.br/img/index/index_2.png");
+        background-image: url("../img/index/index_2.png");
         background-size: cover;
         background-repeat: no-repeat;
         background-position: center;
